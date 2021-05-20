@@ -1,10 +1,14 @@
 public class BedRoom extends Room{
 
     private RoomType roomType;
-    private Integer roomNumber;
+    private int roomNumber;
 
-    public BedRoom(RoomType capacity, Integer roomNumber) {
+    public BedRoom(RoomType capacity,int roomNumber) {
         super(capacity);
         this.roomNumber = roomNumber;
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
     }
 }
