@@ -13,4 +13,9 @@ public class ConferenceRoom extends Room{
     public void setName(String name) {
         this.name = name;
     }
+
+    public int getNightlyRate(){
+        return getValueOfEnum() * 100;
+    }
+
 }

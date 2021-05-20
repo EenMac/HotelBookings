@@ -11,4 +11,8 @@ public class BedRoom extends Room{
     public int getRoomNumber() {
         return roomNumber;
     }
+
+    public int getNightlyRate() {
+        return getValueOfEnum() * 50;
+    }
 }

@@ -29,5 +29,6 @@ public abstract class Room {
     public ArrayList<Guest> getGuests(){
         return this.guests;
     }
+    public abstract int getNightlyRate();
 
 }
